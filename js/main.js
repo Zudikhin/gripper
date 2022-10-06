@@ -6,6 +6,10 @@ $(document).ready(function () {
         $(".nav_mobile_drop").toggleClass("active");
     });
 
+    $(".blog_content_item_content_read_btn").click(function() {
+        $(this).parent().parent().parent().parent().addClass("active");
+    });
+
     $(".scroll_home").click(function() {
         $(".nav_mobile_top_btn").removeClass("active");
         $(".nav_mobile_drop").removeClass("active");

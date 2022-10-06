@@ -765,7 +765,7 @@ input:focus {
   .video {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    padding-top: 120px;
+    padding-top: 70px;
     margin-top: 0px;
   }
   .video_back {
@@ -781,7 +781,7 @@ input:focus {
             transform: matrix(-0.13, 0.99, 0.99, 0.13, 0, 0);
   }
   .video_block {
-    width: calc(100% - 100px);
+    width: calc(100% - 250px);
     max-width: 1362px;
     padding-bottom: 0px;
     height: auto;
@@ -789,25 +789,25 @@ input:focus {
   .video_block iframe {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 500px;
   }
   .video_text {
-    width: calc(100% - 160px);
+    width: calc(100% - 250px);
     margin-top: 45px;
     max-width: 1362px;
   }
   .video_text img {
-    width: auto;
+    width: 100px;
   }
   .video_text p {
-    font-size: 34px;
-    line-height: 40px;
-    margin-left: 65px;
+    font-size: 28px;
+    line-height: 36px;
+    margin-left: 35px;
   }
   .video_img {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    padding: 0px 120px;
+    padding: 0px 200px;
     margin-top: 100px;
   }
   .video_img_back {
@@ -1294,7 +1294,7 @@ input:focus {
     padding: 0px 120px;
   }
   .game_title h2 {
-    font-size: 96px;
+    font-size: 76px;
     line-height: 62px;
   }
   .game_one {
@@ -1317,8 +1317,8 @@ input:focus {
     width: calc(100% - 600px);
   }
   .game_one_title h4 {
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 38px;
+    line-height: 50px;
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
@@ -1335,7 +1335,7 @@ input:focus {
   .game_one_count {
     right: auto;
     left: calc(100% - 300px);
-    top: 99px;
+    top: 89px;
   }
   .game_one_count span {
     font-size: 20px;
@@ -1343,8 +1343,8 @@ input:focus {
   }
   .game_one p {
     width: calc(100% - 300px);
-    font-size: 34px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 36px;
   }
   .game_two {
     margin-top: 50px;
@@ -1365,8 +1365,8 @@ input:focus {
     width: calc(100% - 600px);
   }
   .game_two_title h4 {
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 38px;
+    line-height: 50px;
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
@@ -1384,7 +1384,7 @@ input:focus {
   .game_two_count {
     right: auto;
     right: calc(100% - 300px);
-    top: 99px;
+    top: 89px;
   }
   .game_two_count span {
     font-size: 20px;
@@ -1392,8 +1392,8 @@ input:focus {
   }
   .game_two p {
     width: calc(100% - 300px);
-    font-size: 34px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 36px;
     margin-left: auto;
   }
   .game_three {
@@ -1401,11 +1401,11 @@ input:focus {
   }
   .game_three_title::after {
     right: -200px;
-    width: calc(100% - 550px);
+    width: calc(100% - 450px);
   }
   .game_three_title h4 {
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 38px;
+    line-height: 50px;
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
@@ -1422,7 +1422,7 @@ input:focus {
   .game_three_count {
     right: auto;
     left: calc(100% - 300px);
-    top: 99px;
+    top: 89px;
   }
   .game_three_count span {
     font-size: 20px;
@@ -1430,8 +1430,8 @@ input:focus {
   }
   .game_three p {
     width: calc(100% - 300px);
-    font-size: 34px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 36px;
   }
   .game_four {
     margin-top: 50px;
@@ -1453,8 +1453,8 @@ input:focus {
     width: calc(100% - 600px);
   }
   .game_four_title h4 {
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 38px;
+    line-height: 50px;
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
@@ -1472,7 +1472,7 @@ input:focus {
   .game_four_count {
     right: auto;
     right: calc(100% - 300px);
-    top: 99px;
+    top: 89px;
   }
   .game_four_count span {
     font-size: 20px;
@@ -1480,8 +1480,8 @@ input:focus {
   }
   .game_four p {
     width: calc(100% - 300px);
-    font-size: 34px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 36px;
     margin-left: auto;
   }
   .game_five {
@@ -1492,8 +1492,8 @@ input:focus {
     width: calc(100% - 550px);
   }
   .game_five_title h4 {
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 38px;
+    line-height: 50px;
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
     margin-left: 0px;
@@ -1511,7 +1511,7 @@ input:focus {
   .game_five_count {
     right: auto;
     left: calc(100% - 300px);
-    top: 99px;
+    top: 89px;
   }
   .game_five_count span {
     font-size: 20px;
@@ -1519,8 +1519,8 @@ input:focus {
   }
   .game_five p {
     width: calc(100% - 300px);
-    font-size: 34px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 36px;
   }
 }
 @media (min-width: 1920px) {
@@ -1727,7 +1727,7 @@ input:focus {
             transform: rotate(82.71deg);
   }
   .television ul li a img {
-    width: 160px;
+    width: 120px;
   }
   .television_feature {
     width: 1040px;
@@ -1792,7 +1792,7 @@ input:focus {
     margin-top: 226px;
   }
   .television ul li a img {
-    width: auto;
+    width: 200px;
   }
 }
 
@@ -1980,8 +1980,8 @@ input:focus {
             transform: matrix(-0.13, 0.99, 0.99, 0.13, 0, 0);
   }
   .blog_title h2 {
-    font-size: 96px;
-    line-height: 100px;
+    font-size: 76px;
+    line-height: 78px;
   }
   .blog_content {
     max-width: 1440px;
@@ -1990,8 +1990,8 @@ input:focus {
     margin-top: 55px;
   }
   .blog_content_item_date span {
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 45px;
   }
   .blog_content_item_content {
     -webkit-box-sizing: border-box;
@@ -2005,12 +2005,12 @@ input:focus {
     width: auto;
   }
   .blog_content_item_content_text_visible p {
-    font-size: 34px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 34px;
   }
   .blog_content_item_content_text_hidden p {
-    font-size: 34px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 34px;
   }
   .blog_awards {
     margin-top: 80px;
@@ -2038,7 +2038,7 @@ input:focus {
 }
 @media (min-width: 1920px) {
   .blog {
-    margin-top: 270px;
+    margin-top: 200px;
   }
   .blog_content_item {
     margin-top: 90px;
@@ -2268,7 +2268,7 @@ input:focus {
 @media (min-width: 1920px) {
   .footer {
     padding-bottom: 75px;
-    margin-top: 230px;
+    margin-top: 180px;
   }
   .footer_block_left ul li a {
     font-size: 32px;
