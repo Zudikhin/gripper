@@ -1693,6 +1693,13 @@ input:focus {
   -webkit-transform: rotate(7deg);
   transform: rotate(-16deg);
 }
+.television_feature_name {
+  position: absolute;
+  left: 124px;
+  top: 53px;
+  z-index: 7;
+  width: 65px;
+}
 .television_feature_main {
   width: 100%;
   position: relative;
@@ -1724,6 +1731,11 @@ input:focus {
   }
   .television_feature {
     width: 1040px;
+  }
+  .television_feature_name {
+    left: 340px;
+    top: 148px;
+    width: auto;
   }
   .television_feature_one {
     left: 349px;
@@ -1864,6 +1876,15 @@ input:focus {
   position: relative;
   width: 268px;
   height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .blog_content_item_content_read_btn img {
   position: absolute;
