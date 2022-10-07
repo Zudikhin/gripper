@@ -1682,7 +1682,7 @@ input:focus {
 .television_feature_one {
   position: absolute;
   left: 117px;
-  top: 100px;
+  top: 73px;
   width: 120px;
   -webkit-transform: rotate(7deg);
           transform: rotate(7deg);
@@ -1690,7 +1690,7 @@ input:focus {
 .television_feature_two {
   position: absolute;
   left: 56px;
-  top: 210px;
+  top: 184px;
   width: 120px;
   -webkit-transform: rotate(7deg);
   transform: rotate(-7deg);
@@ -1698,7 +1698,7 @@ input:focus {
 .television_feature_three {
   position: absolute;
   right: 63px;
-  top: 268px;
+  top: 242px;
   width: 120px;
   -webkit-transform: rotate(7deg);
   transform: rotate(5deg);
@@ -1706,7 +1706,7 @@ input:focus {
 .television_feature_four {
   position: absolute;
   left: 49px;
-  top: 323px;
+  top: 296px;
   width: 120px;
   -webkit-transform: rotate(7deg);
   transform: rotate(5deg);
@@ -1714,7 +1714,7 @@ input:focus {
 .television_feature_five {
   position: absolute;
   right: 77px;
-  top: 375px;
+  top: 351px;
   width: 120px;
   -webkit-transform: rotate(7deg);
   transform: rotate(-4deg);
@@ -1722,7 +1722,7 @@ input:focus {
 .television_feature_six {
   position: absolute;
   right: 131px;
-  top: 488px;
+  top: 462px;
   width: 100px;
   -webkit-transform: rotate(7deg);
   transform: rotate(27deg);
@@ -1730,27 +1730,22 @@ input:focus {
 .television_feature_seven {
   position: absolute;
   right: 151px;
-  bottom: 384px;
+  bottom: 295px;
   width: 80px;
   -webkit-transform: rotate(7deg);
   transform: rotate(-16deg);
 }
 .television_feature_name {
   position: absolute;
-  left: 124px;
-  top: 53px;
+  left: 121px;
+  top: 23px;
   z-index: 7;
-  width: 65px;
+  width: 67px;
 }
 .television_feature_main {
   width: 100%;
   position: relative;
   z-index: 3;
-}
-@media (min-width: 768px) {
-  .television {
-    padding: 0px 30px;
-  }
 }
 @media (min-width: 1200px) {
   .television {
@@ -1776,54 +1771,54 @@ input:focus {
   }
   .television_feature_name {
     left: 340px;
-    top: 148px;
-    width: auto;
+    top: 66px;
+    width: 194px;
   }
   .television_feature_one {
     left: 349px;
-    top: 300px;
+    top: 226px;
     width: 300px;
     -webkit-transform: rotate(7deg);
             transform: rotate(7deg);
   }
   .television_feature_two {
     left: 173px;
-    top: 623px;
+    top: 543px;
     width: 300px;
     -webkit-transform: rotate(-7deg);
             transform: rotate(-7deg);
   }
   .television_feature_three {
     right: 183px;
-    top: 786px;
+    top: 706px;
     width: 320px;
     -webkit-transform: rotate(5deg);
             transform: rotate(5deg);
   }
   .television_feature_four {
     left: 135px;
-    top: 947px;
+    top: 867px;
     width: 280px;
     -webkit-transform: rotate(9deg);
             transform: rotate(9deg);
   }
   .television_feature_five {
     right: 234px;
-    top: 1093px;
+    top: 1013px;
     width: 320px;
     -webkit-transform: rotate(-4deg);
             transform: rotate(-4deg);
   }
   .television_feature_six {
     right: 405px;
-    top: 1419px;
+    top: 1335px;
     width: 250px;
     -webkit-transform: rotate(27deg);
             transform: rotate(27deg);
   }
   .television_feature_seven {
     right: 436px;
-    bottom: 1100px;
+    bottom: 841px;
     width: 250px;
     -webkit-transform: rotate(-16deg);
             transform: rotate(-16deg);
@@ -1901,12 +1896,24 @@ input:focus {
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
+.blog_content_item_content_text_hidden h4 {
+  font-family: "Electrolize", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
 .blog_content_item_content_text_hidden p {
   font-family: "Electrolize", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
+  margin: 20px 0px;
+}
+.blog_content_item_content_text_hidden img {
+  width: 100%;
 }
 .blog_content_item_content_arrow img {
   width: 24px;
@@ -1943,7 +1950,7 @@ input:focus {
   color: #FFFFFF;
 }
 .blog_content_item.active .blog_content_item_content_text_hidden {
-  max-height: 1000px;
+  max-height: 3000px;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
