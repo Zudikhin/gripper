@@ -35,6 +35,11 @@ $(document).ready(function () {
         }, 2000);
     });
 
+    $('.game_one_slider').on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
+        var i = (currentSlide ? currentSlide : 0) + 1;
+        $(".game_one_count span").text(i + ' / ' + slick.slideCount);
+    });
+
     $('.game_one_slider').slick({
         dots: false,
         infinite: true,
@@ -44,26 +49,13 @@ $(document).ready(function () {
         cssEase: 'linear'
     });
 
-    $('.game_one_slider').on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
-        var i = (currentSlide ? currentSlide : 0) + 1;
-        $(".game_one_count span").text(i + ' / ' + slick.slideCount);
-    });
-
-    $('.game_two_slider').slick({
-        dots: false,
-        infinite: true,
-        arrows: false,
-        speed: 500,
-        fade: true,
-        cssEase: 'linear'
-    });
 
     $('.game_two_slider').on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
         var i = (currentSlide ? currentSlide : 0) + 1;
         $(".game_two_count span").text(i + ' / ' + slick.slideCount);
     });
 
-    $('.game_three_slider').slick({
+    $('.game_two_slider').slick({
         dots: false,
         infinite: true,
         arrows: false,
@@ -77,7 +69,7 @@ $(document).ready(function () {
         $(".game_three_count span").text(i + ' / ' + slick.slideCount);
     });
 
-    $('.game_four_slider').slick({
+    $('.game_three_slider').slick({
         dots: false,
         infinite: true,
         arrows: false,
@@ -91,7 +83,7 @@ $(document).ready(function () {
         $(".game_four_count span").text(i + ' / ' + slick.slideCount);
     });
 
-    $('.game_five_slider').slick({
+    $('.game_four_slider').slick({
         dots: false,
         infinite: true,
         arrows: false,
@@ -103,6 +95,15 @@ $(document).ready(function () {
     $('.game_five_slider').on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
         var i = (currentSlide ? currentSlide : 0) + 1;
         $(".game_five_count span").text(i + ' / ' + slick.slideCount);
+    });
+
+    $('.game_five_slider').slick({
+        dots: false,
+        infinite: true,
+        arrows: false,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
     });
 
 });
